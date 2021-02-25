@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="This is where your description goes">
+    	<meta name="keywords" content="one, two, three">
+
+		<title>Pokedex</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
+	</head>
+	<body>
+
+	<div class="container">
+			<div class="searchContainer">
+				<h1>PokeDex</h1>
+				<input id="searchBox" type="text" name="" placeholder="Looking for someone?">
+				<button id="myBtn">Search Pokedex</button>
+			</div>	
+		<ol id="pokedex"></ol>
+	</div>
+
+
+	<!-- Popup pokedex search -->
+
+	<!-- The Modal -->
+		<div id="myModal" class="modal">
+			<!-- <span class="close">&times;</span> -->
+		  <!-- Modal content -->
+
+		  <div class="modal-content">
+		    <span class="close">&times;</span>
+		    <img class="modalImg" src="">
+		    <h2 class="modalTitle"></h2>
+		    <p class="modalSubtitle"></p>
+		    <p class="modalHeight"></p>
+		    <p class="modalWeight"></p>
+		  </div>
+
+		</div>
+		
+		<audio id="pokeAudio" src="css/audio/pokemon.mp3"></audio>
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
